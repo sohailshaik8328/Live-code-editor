@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1720px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+.flex  {
+  display: flex;
+}
+.align_center {
+  align-items: center;
+}
+.between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+
+.output_section {
+  /* border: 1px solid green; */
+  box-shadow: -2px -2px 3px rgba(128, 128, 128, 0.329), 2px 2px 3px rgba(128, 128, 128, 0.384);
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 87vh;
+  /* background-color: #263238; */
+  /* color: white; */
+}
+.output_section::-webkit-scrollbar {
+  display: none;
+}
+iframe::-webkit-scrollbar {
+  display: none;
+}
+iframe {
+  width: 100%;
+  height: 85vh;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.editor {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: 1rem;
+  height: 45vh;
+  /* box-shadow: -2px -2px 6px black, 2px 2px 6px black; */
+
+}
+.lang_name {
+  font-size: 1.3em;
+  background-color: #DCDCDC;
+  padding: 0.8rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.code_mirror_wrapper {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  flex-grow: 1;
+  overflow: hidden;
+ 
+}
+.output_heading {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+.dots {
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+.dot_1 {
+  background-color: #DD393A;
+}
+.dot_2 {
+  background-color: #F7A403;
+}
+.dot_3 {
+  background-color: #69CE32;
+}
+.output_top {
+  /* width: 100%;
+  height: 20px; */
+  background-color: #DCDCDC;
+  padding: 0.3rem;
+
+}
